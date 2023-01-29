@@ -78,7 +78,6 @@ spec:
     app: web
   ports:
     - port: 80
-      nodePort: 30000
       targetPort: 8080
-  type: NodePort
+  type: LoadBalancer
 
