@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
         - name: site
-          image: thiagofh/kube-news:v1
+          image: thiagofh/kube-news:{{TAG}}
           ports:
           - containerPort: 80
           env:
